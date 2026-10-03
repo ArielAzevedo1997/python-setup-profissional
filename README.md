@@ -291,7 +291,7 @@ O `uv` cria automaticamente a pasta `.venv` ao iniciar o projeto. Quando você a
 ## 13. Variáveis de ambiente e o arquivo .env
 
 ```powershell
-New-Item .env -> pe o arquivo onde colocamos as credenciais
+New-Item .env -> é o arquivo onde colocamos as credenciais
 code .env
 ```
 
