@@ -246,6 +246,7 @@ Em vez de juntar `venv`, `pip`, `pip freeze` e `requirements.txt` manualmente, o
 ```bash
 uv init projeto-final
 cd projeto-final
+Remove-item .python-version
 uv add pandas
 uv add requests
 uv add python-dotenv
@@ -253,6 +254,7 @@ uv add python-dotenv
 
 - `uv init projeto-final` — cria o projeto e monta a estrutura inicial
 - `uv add pandas` — adiciona o pandas como dependência oficial do projeto
+- `Remove-item .python-version` — remove um arquivo
 
 A diferença do `uv add` para o `pip install`: você está **declarando** que o projeto depende daquela biblioteca. Isso fica registrado de forma que qualquer pessoa que clonar consiga reproduzir o mesmo ambiente.
 
