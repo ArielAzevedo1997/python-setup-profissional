@@ -157,6 +157,9 @@ O que está acontecendo:
 - `python --version` dentro de `projeto-a` — deve retornar `Python 3.10.11`
 - `python --version` dentro de `projeto-b` — deve retornar `Python 3.12.0`
 - `python --version` fora das pastas — volta para a versão global
+- `mkdir nome_pasta` -> para criar pasta
+- `cd nome_pasta` -> para entrar na pasta
+- `cd ..` -> para voltar para a pasta anterior
 
 O ponto central: **cada projeto decide qual versão do Python ele usa**, sem depender do que está instalado globalmente na máquina.
 
