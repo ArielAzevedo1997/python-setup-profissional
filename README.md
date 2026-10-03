@@ -4,6 +4,12 @@
 
 ---
 
+Quando o professor atualizar o repo dele, você puxa as mudanças assim: 
+
+- git pull upstream main
+
+---
+
 A proposta aqui não é só instalar Python e sair rodando código.
 
 É montar um ambiente de trabalho que você vai conseguir reproduzir, que outro colega vai conseguir clonar e rodar, e que não vai te dar dor de cabeça quando você precisar juntar dois projetos na mesma máquina.
