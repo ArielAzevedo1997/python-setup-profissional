@@ -249,7 +249,7 @@ cd projeto-final
 Remove-item .python-version
 uv add pandas
 uv add requests
-uv add python-dotenv
+uv add python-dotenv -> é essa dotenv que nos ajuda com as credenciais
 ```
 
 - `uv init projeto-final` — cria o projeto e monta a estrutura inicial
@@ -291,7 +291,7 @@ O `uv` cria automaticamente a pasta `.venv` ao iniciar o projeto. Quando você a
 ## 13. Variáveis de ambiente e o arquivo .env
 
 ```powershell
-New-Item .env
+New-Item .env -> pe o arquivo onde colocamos as credenciais
 code .env
 ```
 
