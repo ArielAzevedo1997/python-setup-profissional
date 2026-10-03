@@ -328,7 +328,7 @@ Isso deixa o código mais limpo, mais seguro e mais fácil de adaptar para ambie
 
 ## 14. Lendo o .env com Python
 
-Edite o `main.py`:
+Edite o `main.py ou src\projeto_final\__init__.py`:
 
 ```python
 from dotenv import load_dotenv
@@ -353,7 +353,7 @@ print("Credenciais carregadas com sucesso!")
 ## 15. Executando o projeto
 
 ```bash
-uv run main.py
+uv run main.py ou uv run src\projeto_final\__init__.py
 ```
 
 Saída esperada:
